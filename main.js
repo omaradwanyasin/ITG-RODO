@@ -18,3 +18,4 @@ function fun() {
   div.setAttribute("class", "myclass");
   parent.appendChild(div);
 }
+//some changes on the code 
