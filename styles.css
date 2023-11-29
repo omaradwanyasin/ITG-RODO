@@ -1,0 +1,51 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fdiv {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.myclass {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.myclass:hover {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.taskdiv {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eee;
+  flex-grow: 1; /* To make it expand to fill available space */
+}
+.taskdiv:hover {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7d7c7c;
+  flex-grow: 1; /* To make it expand to fill available space */
+}
+
+.delete-button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
+.check {
+  visibility: hidden;
+}
